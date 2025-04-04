@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Aju Viagem</title>
+</head>
+<body>
+    <nav>
+    <ul>
+        <li><a href="/assets/paginas/locais.html">Locais</a></li>
+        <li><a href="/assets/paginas/lista.html">Lista</a></li>
+        <li><a href="/assets/paginas/formulario.html">Formulário</a></li>
+        <li><a href="/assets/paginas/quemsomos.html">Quem Somos</a></li>
+        <li><a href="/assets/paginas/tabela.html">Tabela</a></li>
+        <li><a href="/assets/paginas/contato.html">Contato</a></li>
+        <li><a href="/index.html">Home</a></li>
+    </ul>
+</nav>
+    
+    <h1>FORMULÁRIO</h1>
+
+    <form class="formulario">
+        <label for="">Cliente</label>
+        <input type="text" name="cliente" id="cliente" placeholder="Digite o nome do cliente"><br>
+        <label for="">Telefone</label>
+        <input type="text" name="telefone" id="telefone" placeholder="Digite o seu telefone"><br>
+        <label for="">Email</label>
+        <input type="text" name="email" id="email" placeholder="Digite o seu email"><br>
+        <label for="">Endereço</label>
+        <input type="text" name="endereco" id="endereco" placeholder="Digite o endereço"><br>
+        <label for="">Genêro</label>
+        <select name="genero" id="genero">
+            <option value="m">Masculino</option>
+            <option value="f">Feminino</option>
+        </select><br>
+        <label for="">Estado Civil</label>
+        <label for="solteiro">Solteiro(a)</label>
+        <input type="radio" name="estadocivil" id="solteiro" value="solteiro">
+        <label for="casado">Casado(a)</label>
+        <input type="radio" name="estadocivil" id="casado" value="casado">
+        <label for="divorciado">Divorciado(a)</label>
+        <input type="radio" name="estadocivil" id="divorciado" value="divorciado">
+        <label for="viuvo">Viúvo(a)</label>
+        <input type="radio" name="estadocivil" id="viuvo" value="viuvo">
+        <button type="submit" name="enviar">Enviar</button> 
+        <input type="button" onclick="Limpar()" value="Limpar" class="limpar">
+    </form>
+</body>
+</html>
